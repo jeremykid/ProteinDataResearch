@@ -118,7 +118,7 @@ def readY():
     wb = load_workbook(filename = 'saliva_spread_sheet.xlsx')
     sheet_ranges = wb["Sheet1"]
     # 28 57 22 23 33 43 52 72
-    samplePostion = ["AH","BK","AB","AC","AL","AW","BF","BZ"]
+    samplePostion = ["AG","BG","AA","AB","AL","AV","BC","BU"]
     y = []
     for samplePostionIndex in range(len(samplePostion)):
         if (sheet_ranges[samplePostion[samplePostionIndex]+"99"].value == 1):
